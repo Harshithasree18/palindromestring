@@ -13,8 +13,13 @@ public class StringPalindromeTest {
         assertFalse(new StringPalindrome().isPalindrome("Hello")); 
     }
     @Test 
-    public void ignoresSpacesAndCase() 
+    public void srtingpalindrome() 
     {
         assertTrue(new StringPalindrome().isPalindrome("Malayalam")); 
+    }
+    @Test
+    public void nonPalindrome()
+    {
+        assertTrue(new StringPalindrome().isPalindrome("Even"));
     }
 }
