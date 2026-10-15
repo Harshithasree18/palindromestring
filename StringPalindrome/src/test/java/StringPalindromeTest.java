@@ -17,5 +17,9 @@ public class StringPalindromeTest {
     {
         assertTrue(new StringPalindrome().isPalindrome("Malayalam")); 
     }
-  
+    @Test
+    public void nonPalindrome()
+    {
+        assertTrue(new StringPalindrome().isPalindrome("Even"));
+    }
 }
